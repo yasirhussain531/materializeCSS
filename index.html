@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webhosting</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" ></script>
+    <style>
+        #demo {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!----------------------------------------------NavigationBar--------------------------------------->
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav offset-3">
+                        <li class="nav-item ">
+                            <a class="nav-link " href="#top">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team" tabindex="-1" aria-disabled="true">OUR TEAM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#price">PRICE PLANS</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT US</a>
+                        </li>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-----------------------------------------------------SLIDER--------------------------------------->
+    <section class="">
+        <div class="container">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/banner1.jpg" alt="Los Angeles" width="1100" height="500">
+                        <div class="carousel-caption">
+                            <h3>Los Angeles</h3>
+                            <p>We had such a great time in LA!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/banner2.jpg" alt="Chicago" width="1100" height="500">
+                        <div class="carousel-caption">
+                            <h3>Chicago</h3>
+                            <p>Thank you, Chicago!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/banner3.jpg" alt="New York" width="1100" height="500">
+                        <div class="carousel-caption">
+                            <h3>New York</h3>
+                            <p>We love the Big Apple!</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-----------------------------------About Us-------------------------------------->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6"><h2>About Us</h2>
+                <div class="about-content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </div>
+                <button type="button" class="btn btn-primary">Read More>></button>
+                </div>
+                <div class="col-md-6 skills-bar">
+                    <p>Adobe Photoshop</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%;">80%</div>
+                    </div>
+                    <p>UI Design</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%;">85%</div>
+                    </div>
+                    <p>Wordpress</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%;">75%</div>
+                    </div>
+                    <p>Graphics Design</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 50%;">50%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------------------------------Services----------------------------------------->
+
+    <section id="services">
+        <div class="container">
+            <h1>Our Services</h1>
+            <div class="row services">
+                <div class="col-md-3 text-center">
+                    <div class="icon"><i class="fa fa-desktop"></i></div>
+                    <h3>Web Development</h3>
+                    <p>Lorem Ipsum is simply dummy text and typesetting industry.</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="icon"><i class="fa fa-tablet"></i></div>
+                    <h3>App Development</h3>
+                    <p>Lorem Ipsum is simply dummy text and typesetting industry.</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="icon"><i class="fa fa-line-chart"></i></div>
+                    <h3>Digital Marketing</h3>
+                    <p>Lorem Ipsum is simply dummy text and typesetting industry.</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="icon"><i class="fa fa-paint-brush"></i></div>
+                    <h3>Graphics Design</h3>
+                    <p>Lorem Ipsum is simply dummy text and typesetting industry.</p>
+                </div>
+            </div>       
+        </div>
+        
+    </section>
+
+    <!-------------------------------------------Team Member's------------------------------------------>
+
+    <section id="team">
+        <div class="container">
+            <h1>Our Team</h1>
+            <div class="row">
+                <div class="col-md-3 profile-pic text-center">
+                    <div class="img-box">
+                        <img src="images/team1.jpg" class="img-responsive">
+                        <ul>
+                            <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+                            <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+                            <a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+                        </ul>
+                        <h2>Jhon Doe</h2>
+                        <h3>Founder</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    </div>
+                </div>
+                <div class="col-md-3 profile-pic text-center">
+                    <div class="img-box">
+                        <img src="images/team2.jpg" class="img-responsive">
+                        <ul>
+                            <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+                            <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+                            <a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+                        </ul>
+                        <h2>Jhon Doe</h2>
+                        <h3>Bussiness Head</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    </div>
+                </div>
+                <div class="col-md-3 profile-pic text-center">
+                    <div class="img-box">
+                        <img src="images/team3.jpg" class="img-responsive">
+                        <ul>
+                            <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+                            <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+                            <a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+                        </ul>
+                        <h2>Jhon Doe</h2>
+                        <h3>Janitor</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-------------------------------------Promo---------------------------------->
+    <section id="promo">
+        <div class="container">
+            <p>Get Free Domain Name And Web Hosting</p>
+            <a href="#contact" class="btn btn-primary">Contact Us</a>
+        </div>
+    </section>
+
+    <!-------------------------------------------------Price Section----------------------------------->
+    <section id="price">
+        <div class="container">
+            <h1>Price Plan's</h1>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="single-price">
+                        <div class="price-head">
+                            <h2>Free</h2>
+                            <p>0$/<span>Month</span></p>
+                        </div>
+                        <div class="price-content">
+                            <ul>
+                               <li><i class="fa fa-check-circle"></i> 5GB Space</li>
+                               <li><i class="fa fa-check-circle"></i> 10GB Bandwidth</li>
+                               <li><i class="fa fa-times-circle"></i> 15 Email Accounts</li>
+                               <li><i class="fa fa-times-circle"></i> Unlimited Domain</li>
+                               <li> <i class="fa fa-times-circle"></i>Unlimited Support</li>
+                            </ul>
+                        </div>
+                        <div class="price-button">
+                            <a class="buy-btn" href="#">Join Free</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-3">
+                    <div class="single-price">
+                        <div class="price-head">
+                            <h2>Start Up</h2>
+                            <p>10$/<span>Month</span></p>
+                        </div>
+                        <div class="price-content">
+                            <ul>
+                               <li><i class="fa fa-check-circle"></i> 50GB Space</li>
+                               <li><i class="fa fa-check-circle"></i> 100GB Bandwidth</li>
+                               <li><i class="fa fa-check-circle"></i> 15 Email Accounts</li>
+                               <li><i class="fa fa-times-circle"></i> Unlimited Domain</li>
+                               <li> <i class="fa fa-times-circle"></i>Unlimited Support</li>
+                            </ul>
+                        </div>
+                        <div class="price-button">
+                            <a class="buy-btn" href="#">Buy Now</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-3">
+                    <div class="single-price">
+                        <div class="price-head">
+                            <h2>Bussiness</h2>
+                            <p>50$/<span>Month</span></p>
+                        </div>
+                        <div class="price-content">
+                            <ul>
+                               <li><i class="fa fa-check-circle"></i> 100GB Space</li>
+                               <li><i class="fa fa-check-circle"></i> 200GB Bandwidth</li>
+                               <li><i class="fa fa-check-circle"></i> 50 Email Accounts</li>
+                               <li><i class="fa fa-check-circle"></i> Unlimited Domain</li>
+                               <li> <i class="fa fa-times-circle"></i>Unlimited Support</li>
+                            </ul>
+                        </div>
+                        <div class="price-button">
+                            <a class="buy-btn" href="#">Buy Now</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-3">
+                    <div class="single-price">
+                        <div class="price-head">
+                            <h2>Advanced</h2>
+                            <p>100$/<span>Month</span></p>
+                        </div>
+                        <div class="price-content">
+                            <ul>
+                               <li><i class="fa fa-check-circle"></i> 200GB Space</li>
+                               <li><i class="fa fa-check-circle"></i> 400GB Bandwidth</li>
+                               <li><i class="fa fa-check-circle"></i> 100 Email Accounts</li>
+                               <li><i class="fa fa-check-circle"></i> Unlimited Domain</li>
+                               <li> <i class="fa fa-check-circle"></i>Unlimited Support</li>
+                            </ul>
+                        </div>
+                        <div class="price-button">
+                            <a class="buy-btn" href="#">Buy Now</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------------------------Testimonial's Section----------------------------->
+<section id="testimonials">
+               <div class="container">
+                   <h1>Testimonials</h1>
+                   <p class="text-center">Subscribe to our News Letter To Stay Updated!</p>
+                   <div class="row">
+                       <div class="col-md-4 text-center">
+                           <div class="profile">
+                               <img src="images/user1.jpg" class="user">
+                               <blockquote><i class="fa fa-quote-left"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s<i class="fa fa-quote-right"></i></blockquote>
+                               <h3>John Doe <span>Co-Founder at XYZ</span></h3>
+                           </div>
+                       </div>
+                       <div class="col-md-4 text-center">
+                        <div class="profile">
+                            <img src="images/user2.jpg" class="user">
+                            <blockquote><i class="fa fa-quote-left"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s<i class="fa fa-quote-right"></i></blockquote>
+                            <h3>Ricardo <span>Founder at XYZ</span></h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="profile">
+                            <img src="images/user3.jpg" class="user">
+                            <blockquote><i class="fa fa-quote-left"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s<i class="fa fa-quote-right"></i></blockquote>
+                            <h3>Shakil Supari <span>Abbu at XYZ</span></h3>
+                        </div>
+                    </div>
+                   </div>
+               </div>
+
+</section>
+
+<!--------------------------------------------------------Get In touch---------------------------------->
+
+ <section id="contact">
+     <div class="container">
+         <h1>Get In Touch</h1>
+         <div class="row">
+             <div class="col-md-6">
+              <form class="contact-form">
+                  <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Your Name">
+                  </div>
+                  <div class="form-group">
+                    <input type="number" class="form-control" placeholder="Phone Number">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Your Email ">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+
+                        <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+                </div>
+              </form>
+             </div>
+             <div class="col-md-6 contact-info">
+                 <div class="follow"><b>Address:</b> <i class="fa fa-map-marker"></i> XYZ Road, Bhens Colony, Uganda</div>
+                 <div class="follow"><b>Phone:</b> <i class="fa fa-phone"></i> +92 090078601</div>
+                 <div class="follow"><b>Email:</b> <i class="fa fa-envelope-o"></i> example@website.com</div>
+                 <div class="follow"><label><b>Get Socials:</b></label>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-youtube-play"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                </div>
+
+             </div>
+         </div>
+     </div>
+
+ </section>
+ <!---------------------------------------------------Footer-------------------------------------------->
+ <section id="footer">
+     <div class="container text-center">
+         <p>Made With <i class="fa fa-heart-o"></i>  by BawaliBhair</p>
+     </div>
+ </section>
+ <!---------------------------------------JavaScript------------------------------------------------>
+ <script src="js/smooth-scroll.js"></script>
+ <script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
